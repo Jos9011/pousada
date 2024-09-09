@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.span{
+    color: blueviolet;
+}
+.texto1{
+    h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+position: absolute;
+left: 150px;
+top: 3px;
+color: blueviolet
+    }
+
+    a{
+font-size: 25px;
+text-decoration: none;
+color: black;
+    }
+}
+.link1,.link2,.link3 {
+    padding-right: 15px;
+}
+.links{
+margin-left: 1250px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.texto2{
+    background-image: url(assets/img-fundo.jpg) ;
+    height: 700px;
+    background-size: cover;
+}
+.texte21{
+    background-color: rgba(0, 128, 0, 0.582);
+    padding: 50px;
+    position: absolute;
+    right: 520px;
+    top: 320px;
+    h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
+    p{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+.texto3{
+    text-align: center;
+    padding: 60px;
+    p{
+        padding: 15px;
+        color: rgba(54, 54, 54, 0.726);
+    }
+    h1{
+        font-size: 42px;
+        padding-bottom: 10px;
+        color: rgba(54, 54, 54, 0.726);
+    }
+
+}
+.quarto1{
+    img{
+        width: 500px;
+        position: absolute;
+        left: 20px;
+        top: 1020px;
+    }
+    a{
+        text-decoration: none;
+        color: rgba(65, 65, 65, 0.877);
+        position: absolute;
+        left: 60px;
+        top: 1350px;
+        font-size: 25px;
+        padding-bottom: 15px;
+        border-bottom: 3px solid green;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+.quarto2{
+    img{
+        width: 500px;
+        position: absolute;
+        left: 550px;
+        top: 1020px;
+    }
+    a{
+        text-decoration: none;
+        color: rgba(65, 65, 65, 0.877);
+        position: absolute;
+        left: 600px;
+        top: 1350px;
+        font-size: 25px;
+        padding-bottom: 15px;
+        border-bottom: 3px solid green;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+.quarto3{
+    img{
+        width: 490px;
+        position: absolute;
+        left: 1070px;
+        top: 1020px;
+    }
+    a{
+        text-decoration: none;
+        color: rgba(65, 65, 65, 0.877);
+        position: absolute;
+        left: 1150px;
+        top: 1350px;
+        font-size: 25px;
+        padding-bottom: 15px;
+        border-bottom: 3px solid green;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+.quartos{
+    padding: 190px;
+}
+
+.secao-container{
+    text-align: center;
+    padding: 60px;
+    p{
+        padding: 13px;
+        color: rgba(54, 54, 54, 0.726);
+        padding-bottom: 25px;
+    }
+    h1{
+        font-size: 42px;
+        padding-bottom: 15px;
+        color: rgba(54, 54, 54, 0.726);
+    }
+}
+.texto4{
+    text-align: center;
+    padding: 40px;
+    p{
+        padding: 13px;
+        color: rgba(54, 54, 54, 0.726);
+        padding-bottom: 25px;
+    }
+    h1{
+        font-size: 42px;
+        padding-bottom: 15px;
+        color: rgba(54, 54, 54, 0.726);
+    }
+}
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .section {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .image {
+    flex: 1;
+  }
+  
+  .image img {
+    width: 190px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .footer {
+    background-color: #4CAF50; /* Cor verde */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.contact-item span {
+    font-size: 17px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 15px;
+}
+  

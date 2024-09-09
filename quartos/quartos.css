@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.span{
+    color: blueviolet;
+}
+.texto1{
+    h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+position: absolute;
+left: 150px;
+top: 3px;
+color: blueviolet
+    }
+
+    a{
+font-size: 25px;
+text-decoration: none;
+color: black;
+    }
+}
+.link1,.link2,.link3 {
+    padding-right: 15px;
+}
+.links{
+margin-left: 1250px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.texto2{
+    background-image: url(assets/img-fundo.jpg) ;
+    height: 200px;
+    background-size: cover;
+}
+.room-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.room-section p {
+    padding: 0 0 25px 0; /* Removido padding superior e adicionado padding inferior */
+    color: rgba(54, 54, 54, 0.726);
+    font-size: 16px; /* Adicionado tamanho de fonte */
+}
+
+.room-section h2 {
+    font-size: 32px; /* Corrigido para h2 e ajustado o tamanho */
+    padding-bottom: 15px;
+    color: rgba(54, 54, 54, 0.726);
+}
+
+.room-gallery {
+    display: flex; /* Utilizando flexbox para melhor alinhamento */
+    justify-content: center; /* Centraliza as imagens */
+    gap: 10px; /* Espaço entre as imagens */
+    margin-top: 20px;
+}
+
+.room-gallery img {
+    width: 300px; /* Ajuste de largura para deixar as imagens proporcionais */
+    border-radius: 5px; /* Adicionado bordas arredondadas para estética */
+}
+
+.room-info h3 {
+    text-align: center;
+    padding-top: 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.room-info ul {
+    display: flex; /* Flexbox para alinhar itens em linha */
+    justify-content: center; /* Centraliza o conteúdo */
+    flex-wrap: wrap; /* Permite quebra de linha se necessário */
+    gap: 20px; /* Espaço entre os itens */
+    padding: 20px;
+    list-style: none; /* Remove os marcadores de lista */
+}
+
+.room-info li {
+    padding-top: 10px;
+    text-align: left; /* Alinhamento à esquerda para melhor leitura */
+}
+.footer {
+    background-color: #4CAF50; /* Cor verde */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.contact-item span {
+    font-size: 17px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 15px;
+}
